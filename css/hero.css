@@ -1,21 +1,22 @@
 #hero {
-  display: flex;
-  flex-direction: column;
+  background-color: #2E2F42;
   justify-content: center;
   align-items: center;
-  background-color: #2E2F42;
-  height: 600px;
   width: 100%;
-  padding-top: 188px;
-  padding-bottom: 188px;
 }
 h1 {
+  text-align: center;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 56px;
-  width: 496px;
   line-height: 1.07;
   letter-spacing: -0.02em;
   text-align: center;
   color: #FFFFFF;
+  justify-content: center;
+}
+button {
+  background-color: #4D5AE5;
+  color: #FFFFFF;
+  border:none;
 }
